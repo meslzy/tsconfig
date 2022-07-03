@@ -1,0 +1,18 @@
+{
+  "name": "@meslzy/tsconfig",
+  "description": "my personal shared typescript configuration for my projects",
+  "version": "0.0.1",
+  "author": {
+    "name": "Meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com"
+  },
+  "files": [
+    "tsconfig.json",
+    "tsconfig.react.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
