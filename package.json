@@ -1,0 +1,25 @@
+{
+  "name": "@meslzy/tsconfig",
+  "description": "shared typescript configuration",
+  "version": "1.0.0",
+  "main": "tsconfig.json",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "meslzy",
+    "tsconfig"
+  ],
+  "devDependencies": {
+    "typescript": "6.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "mit"
+}

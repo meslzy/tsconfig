@@ -1,0 +1,80 @@
+{
+  "compilerOptions": {
+    // Type Checking
+    "allowUnreachableCode": null,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictBuiltinIteratorReturn": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "useUnknownInCatchVariables": true,
+    // Modules
+    "allowArbitraryExtensions": true,
+    "allowImportingTsExtensions": true,
+    "allowUmdGlobalAccess": false,
+    "baseUrl": null,
+    "customConditions": null,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "moduleSuffixes": null,
+    "noResolve": false,
+    "noUncheckedSideEffectImports": true,
+    "paths": {
+      "~/*": ["src"]
+    },
+    "resolveJsonModule": true,
+    "resolvePackageJsonExports": true,
+    "resolvePackageJsonImports": true,
+    "rewriteRelativeImportExtensions": true,
+    "rootDirs": null,
+    "typeRoots": null,
+    // Emit
+    "noEmit": true,
+    // JavaScript,
+    "allowJs": true,
+    "checkJs": false,
+    "maxNodeModuleJsDepth": 0,
+    // Editor Support
+    "disableSizeLimit": true,
+    // Interop Constraints
+    "allowSyntheticDefaultImports": true,
+    "erasableSyntaxOnly": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedDeclarations": false,
+    "isolatedModules": false,
+    "preserveSymlinks": true,
+    "verbatimModuleSyntax": true,
+    // Language and Environment
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false,
+    "jsx": "react-jsx",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    // Projects
+    "composite": false,
+    "incremental": false,
+    // Output Formatting
+    "pretty": true,
+    // Completeness
+    "skipLibCheck": true
+  }
+}
